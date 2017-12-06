@@ -6,6 +6,7 @@ echo $output;
 ?>
 <br/>
 <?php
+/// how to code for password///
 $endofpassword = 'word';
 $output = sprintf("Your password: %'*-8s", $endofpassword);
 echo $output;
